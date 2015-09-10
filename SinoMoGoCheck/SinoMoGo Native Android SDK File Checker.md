@@ -1,4 +1,4 @@
-# <a id="title"></a>SINOMOGO SDK FILES CHECKER
+# <a id="title"></a>SINOMOGO SDK FILE CHECKER
 ## Native for Android
 
 The SinoMoGo SDK File Checker is a tool which helps to verify that all required files are present and in the correct location after the SinoMoGo SDK integration has been completed as well as verify the AndroidManifest.xml configuration. 
