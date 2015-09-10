@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartions.sinomogo.pay.demo"
+    android:versionCode="50"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- SinoMoGo Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- SinoMoGo Permissions -->
+
+    <application
+        android:name="com.smartions.sinomogo.pay.demo.SinomogoAppcation"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+
+        <!-- android:theme="@android:style/Theme.Holo.Light.NoActionBar" -->
+        <activity
+            android:name="com.smartions.sinomogo.pay.demo.Demo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SinoMoGo Analytics -->
+        <service android:name="com.smartions.sinomogo.countly.OpenUDID_service" >
+            <intent-filter>
+                <action android:name="org.openudid.GETUDID" />
+            </intent-filter>
+        </service>
+        <!-- SinoMoGo Analytics -->
+
+
+        <!-- PayUI -->
+        <activity
+            android:name="com.smartions.sinomogo.pay.openapi.PayUI"
+            android:configChanges="orientation|keyboardHidden|fontScale|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <!-- PayUI -->
+
+
+        <!-- PayResultIntentReceiver -->
+        <receiver android:name="com.smartions.sinomogo.pay.demo.PayResultIntentReceiver" >
+            <intent-filter>
+                <action android:name="com.smartions.sinomogo.pay.demo.android.intent.action.EDIT.SinoMoGoPay" />
+            </intent-filter>
+        </receiver>
+        <!-- PayResultIntentReceiver -->
+
+
+        <!-- alipay -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <!-- alipay -->
+
+
+        <!-- UnionPay -->
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.SplashActivity" >
+            <intent-filter>
+                <action android:name="com.unionpay.upomp.lthj.android.plugin.init.test" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.IndexActivityGroup" >
+            <intent-filter>
+                <action android:name="com.unionpay.upomp.lthj.android.plugin.index.test" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.HomeActivity" >
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.PayActivity" >
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.AccountActivity" >
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.BankCardInfoActivity" >
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.SupportCardActivity" >
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.UserProtocolActivity" >
+        </activity>
+        <activity android:name="com.unionpay.upomp.lthj.plugin.ui.AboutActivity" >
+        </activity>
+        <!-- UnionPay -->
+
+    </application>
+
+</manifest>

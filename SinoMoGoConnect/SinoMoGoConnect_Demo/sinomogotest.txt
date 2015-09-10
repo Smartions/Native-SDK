@@ -1,0 +1,4 @@
+sinomogotest.keystore
+Password:sinomogotest
+Alias:sinomogotest
+AliasPassword:sinomogotest

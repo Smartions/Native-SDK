@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Apr 25 18:12:28 CST 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=smartconnectNo1.0.0.25.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|SmartConnect_sample>;<jar|android-support-v4.jar>;<jar|libammsdk.jar>;<jar|additionnal.jar>;<jar|bcprov-jdk15on-150.jar>;<jar|mail.jar>;<jar|libammsdk.jar>;<jar|activation.jar>;<jar|smartconnectproject.jar>
+includes=

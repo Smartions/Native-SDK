@@ -1,0 +1,88 @@
+SinoMoGoBaseProjectForAndroid
+	|-->assets
+       
+		|-->sinomogoconnect_resource
+			|-->image
+                 |-->btn_back.png
+                 |-->btn_close.png
+                 |-->edittext_bg.9.png
+                 |-->error.png
+                 |-->friend_common.png
+                 |-->group_common.png
+                 |-->info.png
+                 |-->loading.png
+                 |-->logo.png
+                 |-->mail.png
+                 |-->renren_common.png
+                 |-->scrolldown.png
+                 |-->scrollup.png
+                 |-->scrollemail.png
+                 |-->sina_common.png
+                 |-->success.png
+                 |-->tencent_common.png
+		|-->sinomogopay_resource
+			|-->image
+                 |-->alipayclient_common.png
+                 |-->alipayclient_buy.png
+                 |-->btn_360_login_common.png
+                 |-->btn_back.png
+                 |-->btn_buy_icon.png
+                 |-->btn_close.png
+                 |-->btn_egame_concat_us_common.png
+                 |-->btn_egame_more_game_common.png
+                 |-->chinamobile_common.png
+                 |-->chinamobile_buy.png
+                 |-->cmg_common.png
+                 |-->cmg_buy.png
+                 |-->edittext_bg.9.png
+                 |-->egame_common.png
+                 |-->egame_buy.png
+                 |-->egame_logo.png
+                 |-->error.png
+                 |-->info.png
+				 |-->exiticon.png
+                 |-->loading.png
+                 |-->logo.png
+                 |-->mail.png
+                 |-->scrollemail.png
+                 |-->scrolldown.png
+                 |-->scrollup.png
+                 |-->success.png
+                 |-->unionpay_common.png
+                 |-->unionpay_buy.png
+		|-->01_sinomogo_base.jar
+		|-->01_sinomogo_connect.jar
+		|-->01_sinomogo_pay.jar
+		|-->01_sinomogo_pay_alipay.jar
+		|-->01_sinomogo_pay_upomp.jar
+		|-->01_sinomogo_libs.xml
+		|-->01_sinomogo_res.zip
+		|-->applicationcontext.ioc.xml
+		|-->sinomogo_web.xml
+		|-->customer.bin
+		|-->SinoMoGo.bin
+	|-->libs
+		|-->armeabi
+            |--> liblthj_unipaybusiness20140213.so
+			|-->libmegjb.so
+			|-->libsinomogo.so
+		|-->armeabi-v7a
+            |--> liblthj_unipaybusiness20140213.so
+			|-->libmegjb.so
+			|-->libsinomogo.so
+	|-->res
+		|-->drawable
+			|-->egame_sdk_*.xml ( 5 files )
+		|-->drawable-hdpi
+			|-->egame_sdk_*.xml ( 19 files )
+			|-->gc_*.png ( 51 files )
+		|-->layout
+			|-->egame_sdk_fee_layout.xml
+		|-->raw
+			|-->opening_sound.mp3
+		|-->values
+			|-->g_color.xml
+			|-->g_strings.xml
+	|-->runtime
+		|--> Sinomogo_runtime.jar
+

@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Apr 28 16:56:41 CST 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=sinomogoNo1.0.0.26.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|Sinomogo_demo>;<jar|alipay_msp.jar>;<jar|CTEStoreSDKLocalSms2.0.1.jar>;<jar|mmbilling.2.3.0.jar>;<jar|SinomogoNo0428pm_04.jar>
+includes=
