@@ -31,7 +31,7 @@ Please review the following chart (_Fig 1._) to farmiliarize yourself with the i
 ---
 ####3.1. Run the SinoMoGo SDK Installer
 
-Download this complete SDK package by navigating [here] (./) and selecting the Github "**Download Zip**" option.
+Download this complete SDK package by navigating [here] (../../) and selecting the Github "**Download Zip**" option.
 
 Inside "**SinoMoGoInstaller**" folder of this SDK package (_Fig 2._) you will find an integration tool named "**sinomogo_installer.exe**" (_Fig 3._) which will help you to integrate SinoMoGo SDK into your App. 
 
