@@ -52,7 +52,7 @@ _Fig 3._
   ![sinomogo.exe](../Documentation/imgs/run_installer02.png "SDK Installer")
   * Click "Install" to run the installer.
 
-> _**Note:** After the installation, Your project in Eclipse will show a bunch of errors. Those errors are caused by the lack of JAR files. The problem will be resolved after the operation in Chapter 3.3. _   
+> _**Note:** After the installation, Your project in Eclipse will show a bunch of errors. Those errors are caused by the lack of JAR files. The problem will be resolved after the operation in Chapter 3.3._   
   
 ####3.2. Configure your Application Class
 
