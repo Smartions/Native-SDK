@@ -1,25 +1,20 @@
-<a href="https://www.sinomogo.com/" title="SinoMoGo by Smartions" rel="home" style="
-    float: right;
-"><img class="standard-logo" src="https://www.sinomogo.com/wp-content/uploads/2015/09/sinomogo-logo11.png" alt="SinoMoGo by Smartions"></a> 
- 
 # <a id="title"></a>SINOMOGO SDK FILES CHECKER
 ## Native for Android
 
-The SinoMoGo SDK File Checker is a tool which helps to verify that all required files are present in the correct location after the SinoMoGo SDK integration has been completed. 
+The SinoMoGo SDK File Checker is a tool which helps to verify that all required files are present and in the correct location after the SinoMoGo SDK integration has been completed as well as verify the AndroidManifest.xml configuration. 
 
-**For Windows:** 
-If the development environment is Windows, use the tool by running the provided "**SinoMoGoCheckFileTool.exe**" file found in the folder "**windows**". 
+####Windows 
+Where your development environment is Windows, use the "**SinoMoGoCheckFileTool.exe**" file found in the [Windows] (./windows) sub-directory (_Fig 1._).
 
- _Fig SinoMoGoCheckFileTool.exe_ 
+ _Fig 1._ 
 
- ![Fig SinoMoGoCheckFileTool.exe ](../Documentation/imgs/checker01.png "Fig SinoMoGoCheckFileTool.exe " ) 
+ ![Fig SinoMoGoCheckFileTool.exe ](../Documentation/imgs/checker01.png) 
  
-Below is a screenshot of the tool's interface:
+The SinoMoGo SDK File Checker tool interface ( _Fig 2._ ):
  
- 
- _Fig SinoMoGoCheckFileTool_ 
+ _Fig 2._ 
 
- ![Fig SinoMoGoCheckFileTool ](../Documentation/imgs/checker02.png "Fig SinoMoGoCheckFileTool ") 
+ ![Fig SinoMoGoCheckFileTool ](../Documentation/imgs/checker02.png) 
 
 - Click on the "**Browse**" button and select your project folder (which already has the SinoMoGo SDK integrated).
 - Click the "**Start**" button to start the checking process.
@@ -27,14 +22,22 @@ Below is a screenshot of the tool's interface:
 - In case there are errors reported ( "**Not configured**" or  "**Not found**" messages) please check the log against the [FileList.txt] (../Documentation/FileList.txt) and amend any errors by copying the missing files to their correct location.
 
 
- **For Linux:** 
+###Linux
 
- ![Fig check.sh ](../Documentation/imgs/checker03.png "Fig check.sh ") 
+Where your development environment is Linux, use the resources found in the [Linux] (./linux) sub-directory (_Fig 3._).
+
+_Fig 3._
+
+ ![Fig check.sh ](../Documentation/imgs/checker03.png) 
 
 
-- Open terminal and execute the below command with appropriate user permission:
-sh "**./<shellPath>/check.sh**" "**./<projectPath>**".
-<shellPath> should be the location where `check.sh` resides.
-<projectPath> should be your project path
+Open terminal and execute the below command with appropriate user permission:
+   
+  ```xml
+  sh "**./<shellPath>/check.sh**" "**./<projectPath>**".
+  ``` 
+
+"**&lt;shellPath&gt;**" must be the location where `check.sh` resides and "**&lt;projectPath&gt;**" should be your game or app's project path.
+
 - A successful pass will display the "**Configuration OK!**" and "**File OK!**" messages.
 - In case there are errors reported ("**Not configured**", "**Not found**" messages) please check the log against the [FileList.txt] (../Documentation/FileList.txt) and amend any errors by copying the missing files to their correct location.
