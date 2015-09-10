@@ -51,7 +51,7 @@ _Fig 3._
   ![sinomogo.exe](./Documentation/imgs/run_installer02.png "SDK Installer")
   * Click "Install" to run the installer.
 
-> _**Note:** After the installation, Your project in Eclipse will show a bunch of errors. Those errors are caused by the lack of JAR files. The problem will be resolved after the operation in Chapter 3.3. _   
+> _**Note:** After the installation, Your project in Eclipse will show a bunch of errors. Those errors are caused by the lack of JAR files. The problem will be resolved after the operation in Chapter 3.3._   
   
 ####3.2. Configure your Application Class
 
@@ -138,7 +138,7 @@ To double-check that the install completed successfully, you can run the "SinoMo
 For further verification that the file copy is complete you can refer to [FileList.txt](./Documentation/FileList.txt).
 
    
-> _**Note:** If the unlikely event that the SinoMoGo check fails or resources have not been copied correctly during installation, please refer to the [SinoMoGo Native Android SDK - Manual Setup] (./Troubleshooting/SinoMoGo%20Native%20Android%20SDK%20-%20Manual%20Setup.md) document for SDK manual setup steps._
+> _**Note:** If the unlikely event that the SinoMoGo check fails or resources have not been copied correctly during installation, please refer to the [SinoMoGo Native Android SDK - Manual Setup] (./Documentation/Troubleshooting/SinoMoGo%20Native%20Android%20SDK%20-%20Manual%20Setup.md) document for SDK manual setup steps._
 
 
 
